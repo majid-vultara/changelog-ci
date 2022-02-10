@@ -266,7 +266,7 @@ class ChangelogCIBase:
             msg = (
                 'Skipping Changelog generation. '
                 'Changelog CI could not find the Release Version. '
-                'Changelog CI should be triggered on a pull request or '
+                'Changelog CI should be triggered on a pull request review or '
                 '`release_version` input must be provided on the workflow. '
                 'Please Check the Documentation for more details.'
             )
