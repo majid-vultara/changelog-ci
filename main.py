@@ -16,7 +16,7 @@ class ChangelogCIBase:
     GITHUB_API_URL = 'https://api.github.com'
 
     WORKFLOW_DISPATCH_EVENT = 'workflow_dispatch'
-    PULL_REQUEST_EVENT = 'pull_request'
+    PULL_REQUEST_EVENT = 'pull_request_review'
 
     def __init__(
         self,
